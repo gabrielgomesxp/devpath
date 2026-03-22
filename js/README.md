@@ -9,7 +9,7 @@
 
 Este é meu caderno público de estudos como desenvolvedor Full Stack em formação.
 
-O aprendizado segue o currículo do **Scrimba Full Stack Developer Path** — 20 matérias cobrindo desde HTML/CSS até React, Node.js, TypeScript e AI Engineering — combinado com um sistema de mentoria via IA que guia cada conceito antes de qualquer exercício.
+O aprendizado segue o currículo do **Scrimba Full Stack Developer Path** — 20 matérias cobrindo desde HTML/CSS até React, Node.js, TypeScript e AI Engineering — combinado com um sistema de mentoria via IA - gemini cli - que guia cada conceito antes de qualquer exercício.
 
 O objetivo não é velocidade. É **compreensão profunda**.
 
@@ -86,4 +86,4 @@ Cursando **Ciência da Computação** em paralelo.
 ## Contato
 
 [![GitHub](https://img.shields.io/badge/GitHub-gabrielgomesxp-181717?style=flat&logo=github)](https://github.com/gabrielgomesxp)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-em_breve-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/gabrielgomesxp/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-gabrielgomesxp-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/gabrielgomesxp/)

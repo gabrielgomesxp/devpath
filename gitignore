@@ -1,28 +1,14 @@
-# Repositório do Scrimba — é deles
-university/fullstack-scrimba/
+# Ignora tudo por padrão
+*
 
-# Extras clonados
-university/extras/ai-engineering/
+# Exceto a pasta js e seu conteúdo
+!js/
+!js/**
 
-# Arquivos MD — exceto README.md
-*.md
+# Exceto arquivos essenciais da raiz
 !README.md
+!.gitignore
+
+# Dentro de js, ignora arquivos md exceto README
+js/**/*.md
 !js/**/README.md
-
-# Dependências
-node_modules/
-.nuxt/
-.output/
-
-# Ambiente
-.env
-.env.local
-.env.*.local
-
-# Sistema
-.DS_Store
-Thumbs.db
-*.Zone.Identifier
-
-# Logs
-*.log
