@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore Dinâmica - Projeto LinkedIn Abril</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>TechStore <span>Dinamica</span></h1>
+        <p>Filtragem em tempo real com JavaScript Puro</p>
+    </header>
+
+    <main>
+        <section class="filters">
+            <button class="filter-btn active" data-category="Todos">Todos</button>
+            <button class="filter-btn" data-category="Periféricos">Periféricos</button>
+            <button class="filter-btn" data-category="Monitores">Monitores</button>
+            <button class="filter-btn" data-category="Áudio">Áudio</button>
+            <button class="filter-btn" data-category="Computadores">Computadores</button>
+        </section>
+
+        <section id="product-grid" class="product-grid">
+            <!-- Os cards serão injetados pelo JavaScript aqui -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Gabriel - Projeto Abril/2026</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

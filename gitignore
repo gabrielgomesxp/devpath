@@ -1,0 +1,28 @@
+# Repositório do Scrimba — é deles
+university/fullstack-scrimba/
+
+# Extras clonados
+university/extras/ai-engineering/
+
+# Arquivos MD — exceto README.md
+*.md
+!README.md
+!js/**/README.md
+
+# Dependências
+node_modules/
+.nuxt/
+.output/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# Logs
+*.log
