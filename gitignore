@@ -12,3 +12,7 @@
 # Dentro de js, ignora arquivos md exceto README
 js/**/*.md
 !js/**/README.md
+
+.university/
+.tracking/
+GEMINI.md
