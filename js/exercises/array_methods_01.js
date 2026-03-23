@@ -1,10 +1,26 @@
 /*
-  DESAFIO HOF - HIGHER ORDER FUNCTIONS
-  Foco: .filter(), .map() e Chaining
-  
-  CONTEXTO: 
-  Você recebeu uma lista de produtos de uma loja de tecnologia.
-  Seu objetivo é processar esses dados para uma campanha de marketing.
+O QUE ESTÁ ACONTECENDO:
+Excelente trabalho nos Exercícios 1 e 2! Você dominou o básico e até usou 
+desestruturação. No Exercício 3 (o Combo), temos dois detalhes:
+1. O objetivo era retornar um OBJETO e você retornou uma STRING (template string).
+2. O precoComDesconto ainda está mostrando o preço original e a função de 
+cálculo não foi usada.
+
+DICA:
+Para retornar um objeto direto em uma arrow function de uma linha, você precisa 
+envolver as chaves do objeto em parênteses: (item) => ({ novoObjeto: item }). 
+Se não colocar os parênteses (), o JS acha que as chaves {} são o corpo da função.
+
+EXEMPLO SIMPLIFICADO:
+const promo = produtos.map(p => ({
+  nome: p.nome,
+  desconto: p.preco * 0.9
+}));
+
+O QUE VOCÊ DEVE FAZER:
+1. No .map() do Exercício 3, mude de string para objeto { }.
+2. Aplique o cálculo do desconto (preco * 0.9) na propriedade precoComDesconto.
+3. Você pode usar sua função calcularDesconto90 ou fazer o cálculo direto ali.
 */
 
 const produtos = [
@@ -23,7 +39,8 @@ const produtos = [
 // que contenha apenas os produtos que estão 'emEstoque'.
 // ─────────────────────────────────────────────────────────────────────────
 
-// Seu código aqui...
+let produtosDisponiveis = produtos.filter((produto) => produto.emEstoque === true)
+console.log(produtosDisponiveis)
 
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -32,7 +49,8 @@ const produtos = [
 // Cada item deve ser uma string no formato: "Produto: [NOME] - R$ [PRECO]"
 // ─────────────────────────────────────────────────────────────────────────
 
-// Seu código aqui...
+let produtosFormatados = produtos.map(({nome, preco}) => `Produto: ${nome} - R$ ${preco}`)
+console.log(produtosFormatados)
 
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -44,10 +62,16 @@ const produtos = [
 // 3. Salve no array 'promocaoPerifericos'.
 // ─────────────────────────────────────────────────────────────────────────
 
-// Seu código aqui...
+let promocaoPerifericos = produtos
+  .filter((produto) => produto.categoria === 'Periféricos')
+  .map(
+    ({nome,preco}) => ({nome: nome, precoOriginal: preco, precoComDesconto: preco * 0.9})
+  )
+console.log(promocaoPerifericos)
 
 
 // ─────────────────────────────────────────────────────────────────────────
 // VALIDAÇÃO:
 // Use console.log() para verificar se os resultados estão corretos.
 // ─────────────────────────────────────────────────────────────────────────
+
