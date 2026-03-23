@@ -1,17 +1,17 @@
-# 🎓 DevPath — Full Stack Learning Journey
+# DevPath — Full Stack Learning Journey
 
-> Repositório público de aprendizado estruturado em desenvolvimento Full Stack.
-> Cada arquivo aqui representa código escrito à mão, revisado e compreendido.
+> Cada arquivo aqui representa código escrito à mão, entendido de verdade.
+> O objetivo não é velocidade. É compreensão profunda.
 
 ---
 
-## Sobre este repositório
+## O que é este repositório
 
-Este é meu caderno público de estudos como desenvolvedor Full Stack em formação.
+Este é meu caderno público de estudos em desenvolvimento Full Stack.
 
-O aprendizado segue o currículo do **Scrimba Full Stack Developer Path** — 20 matérias cobrindo desde HTML/CSS até React, Node.js, TypeScript e AI Engineering — combinado com um sistema de mentoria via IA que guia cada conceito antes de qualquer exercício.
+Sigo o currículo do **Scrimba Full Stack Developer Path** — 20 matérias cobrindo JavaScript, React, Node.js, TypeScript e AI Engineering — dentro de um sistema de mentoria que montei usando o **Gemini CLI como professor no VS Code**.
 
-O objetivo não é velocidade. É **compreensão profunda**.
+O sistema funciona assim: antes de qualquer exercício, o mentor cria lições progressivas. Eu leio, anoto, recebo avaliação com nota e só então parto para o código. Cada arquivo de exercício contém comentários educacionais do mentor escritos durante as revisões — transformando o código em documento de aprendizado.
 
 ---
 
@@ -19,9 +19,9 @@ O objetivo não é velocidade. É **compreensão profunda**.
 
 ```
 js/
-  exercises/    ← exercícios escritos à mão durante o aprendizado
+  exercises/    ← exercícios escritos à mão
   lessons/      ← lições progressivas por conceito
-  projects/     ← projetos autorais
+  projects/     ← projetos autorais mensais
   utils/        ← biblioteca pessoal de funções reutilizáveis
 ```
 
@@ -29,61 +29,51 @@ js/
 
 ## Método de Estudo
 
-Cada conceito novo segue este fluxo obrigatório:
+```
+lição progressiva → anotações → avaliação com nota → exercício → revisão → commit
+```
 
-```
-1. Lição progressiva (o problema → a solução → como usar)
-2. Anotações pessoais
-3. Avaliação das anotações
-4. Exercício prático
-5. Revisão com comentários educacionais no código
-6. Commit documentado
-```
+Cada conceito atômico tem sua própria lição antes de aparecer combinado com outros.
+`filter()` é uma lição. `map()` é outra. A mesclagem só vem depois de ambos consolidados.
 
 ---
 
-## Stack em Aprendizado
+## Stack
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-em_breve-339933?style=flat&logo=node.js&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue%2FNuxt-objetivo_final-4FC08D?style=flat&logo=vue.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-em_breve-339933?style=flat-square&logo=node.js&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue%2FNuxt-objetivo-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 
 ---
 
-## Roadmap
+## Progresso
 
 | Matéria | Status |
 |---|---|
-| HTML & CSS Fundamentals | ✅ Base adquirida |
+| HTML & CSS Fundamentals | ✅ Concluído |
 | JavaScript Fundamentals | 🔄 Cursando |
-| Tools of the Trade | ⏳ Pendente |
-| Essential CSS | ⏳ Pendente |
-| Essential JavaScript | ⏳ Pendente |
-| Responsive Design | ⏳ Pendente |
-| APIs & Async JavaScript | ⏳ Pendente |
-| AI Engineering | ⏳ Pendente |
-| Node.js | ⏳ Pendente |
-| Databases | ⏳ Pendente |
-| Express.js | ⏳ Pendente |
-| React.js | ⏳ Pendente |
-| TypeScript | ⏳ Pendente |
-| Next.js | ⏳ Pendente |
+| Essential JavaScript | ⏳ |
+| APIs & Async JavaScript | ⏳ |
+| Responsive Design + UI | ⏳ |
+| React.js | ⏳ |
+| Node.js + Express | ⏳ |
 | Vue & Nuxt | ⏳ Objetivo principal |
+| TypeScript | ⏳ |
+| Carreira | ⏳ |
 
 ---
 
-## Objetivo Profissional
+## Sobre mim
 
-Transição de carreira para **desenvolvedor Full Stack**, atuando tanto em regime CLT quanto freelance, com foco em Vue/Nuxt para projetos frontend e Node.js para backend.
-
-Cursando **Ciência da Computação** em paralelo.
+Transição de carreira para **desenvolvedor Full Stack**.
+Foco em Vue/Nuxt no frontend e Node.js no backend.
+Cursando Ciência da Computação em paralelo.
+Objetivo: CLT ou freelance como dev até dezembro de 2026.
 
 ---
 
-## Contato
-
-[![GitHub](https://img.shields.io/badge/GitHub-gabrielgomesxp-181717?style=flat&logo=github)](https://github.com/gabrielgomesxp)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-em_breve-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/gabrielgomesxp/)
+[![GitHub](https://img.shields.io/badge/gabrielgomesxp-181717?style=flat-square&logo=github)](https://github.com/gabrielgomesxp)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/gabrielgomesxp)
