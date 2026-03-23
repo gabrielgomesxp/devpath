@@ -1,4 +1,4 @@
-# DevPath — Full Stack Learning Journey
+# 🎓 DevPath — Full Stack Learning Journey
 
 > Cada arquivo aqui representa código escrito à mão, entendido de verdade.
 > O objetivo não é velocidade. É compreensão profunda.
@@ -60,7 +60,7 @@ Cada conceito atômico tem sua própria lição antes de aparecer combinado com 
 | Responsive Design + UI | ⏳ |
 | React.js | ⏳ |
 | Node.js + Express | ⏳ |
-| Vue & Nuxt | ⏳ Objetivo principal |
+| Vue & Nuxt | ⏳ |
 | TypeScript | ⏳ |
 | Carreira | ⏳ |
 
