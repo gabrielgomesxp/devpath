@@ -8,7 +8,7 @@
 ## 📊 Progresso Geral
 
 ```
-JavaScript Fund.  ████░░░░░░░░  30%  🔄 Cursando
+JavaScript Fund.  █████░░░░░░░  35%  🔄 Cursando
 Essential JS      ░░░░░░░░░░░░   0%  ⏳ Maio
 APIs & Async      ░░░░░░░░░░░░   0%  ⏳ Junho
 Responsive        ░░░░░░░░░░░░   0%  ⏳ Julho
@@ -43,7 +43,7 @@ Fase:       Exercício em andamento
 |---|---|---|---|---|
 | 21/03 | Configuração da faculdade | — | — | ✅ |
 | 21/03 | Lições HOF criadas | map, filter, reduce | — | ✅ |
-| 21/03 | Exercício iniciado | filter + map + chaining | — | 🔄 |
+| 21/03 | Exercício concluído | filter + map + chaining | 9.0 | ✅ |
 
 ---
 
@@ -51,7 +51,7 @@ Fase:       Exercício em andamento
 
 | Data | Tipo | Conceito | Nota |
 |---|---|---|---|
-| — | — | — | — |
+| 23/03 | Exercício | HOF (Filter, Map, Chaining) | 9.0 |
 
 **Média geral:** —
 

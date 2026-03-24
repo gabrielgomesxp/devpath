@@ -1,3 +1,4 @@
+# 📝 Anotações de Estudo — Gabriel
 ---- 21/03/2026 - exercicio hof
 Após praticar o primeiro exercícios e fazer bastantes pesquisas no google, utilizar o filter() para filtrar as categorias de uma lista de objetos é muito mais clean do que ficar utilizando o for, além de limpo me dar mais possibilidades de modelagem com algumas algumas trocas de nomes das categorias de objetos.
 

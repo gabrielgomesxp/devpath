@@ -181,37 +181,120 @@ O mentor decide a quantidade baseado na complexidade do conceito.
 
 # Lesson File Content Rules
 
-Cada arquivo de lição deve seguir esta progressão:
+## Princípio fundamental
+
+Cada lição deve ser completa e autossuficiente.
+O aluno NUNCA deve precisar pesquisar fora para resolver os exercícios.
+Tudo que ele precisa deve estar nas lições — explicação, exemplos e prática.
+
+Um conceito atômico = uma lição completa.
+filter() é uma lição. map() é outra lição.
+A mesclagem de dois conceitos só aparece DEPOIS que ambos estão consolidados individualmente — e quando aparecer, recebe sua própria lição completa seguindo as mesmas regras.
+
+---
+
+## Estrutura obrigatória de cada lição
 
 ### Arquivo 01 — O Problema
-
 - Mostra o problema que existia ANTES do conceito
-- Usa código antigo/verboso como exemplo
-- Faz uma pergunta reflexiva ao final: "Como você resolveria isso de forma mais simples?"
+- Usa código antigo e verboso como exemplo real
+- Faz uma pergunta reflexiva ao final
 - NÃO revela a solução ainda
 
 ### Arquivo 02 — A Solução
-
 - Apresenta o conceito novo
-- Explica POR QUE ele foi inventado
+- Explica POR QUE ele foi inventado e qual problema resolve
 - Compara lado a lado: antes vs depois
-- Usa analogia do mundo real
+- Usa analogia do mundo real concreta
 - Explica QUANDO usar e quando NÃO usar
+- Mostra versão com function normal E com arrow function
+- Mostra exemplos progressivos: números → strings → objetos
+- Mostra o que NÃO fazer com exemplos reais do erro
+- Para todo método novo, mostrar o estado interno em cada iteração
+  com os valores reais do exemplo, em comentários no código:
+  acc antes → operação → acc depois
+  O aluno precisa ver o que cada parâmetro carrega em cada passo,
+  não apenas saber o nome do parâmetro.
 
-### Arquivo 03 — Como Usar
 
-- Explica a sintaxe com detalhes
-- Mostra variações (arrow function, função nomeada, etc)
-- Mostra casos comuns de erro e como evitar
-- Inclui seção "🔍 Pesquise no Google" para aprofundamento
+### Arquivo 03 — Como Usar (aprofundamento)
+- Explica como funciona internamente — não só a sintaxe
+- Mostra TODAS as variações de sintaxe
+- Compara com métodos parecidos (ex: map vs forEach, filter vs find)
+- Mostra erros comuns com exemplos do que quebra e por quê
+- Inclui seção 🔍 Pesquise no Google para aprofundamento
+- Mostrar no mínimo 3 casos de uso reais diferentes do mesmo método.
+  Não apenas o caso mais simples — mostrar o método sendo usado de formas
+  que o aluno não imaginou, para ele reconhecer o padrão em problemas futuros.
+  Exemplo para reduce():
+  Caso 1: somar números simples
+  Caso 2: somar propriedade de objetos
+  Caso 3: agrupar itens por categoria
+  Caso 4: contar ocorrências
+  Cada caso com código completo e console.log mostrando o resultado.
 
-### Arquivo 04 — Exercícios Progressivos
+### Arquivos 04 em diante — Exercícios Progressivos por Passos
 
-- Exercício 1: muito simples, quase guiado
-- Exercício 2: um pouco mais independente
-- Exercício 3: desafio real sem dicas
-- Cada exercício tem um comentário explicando o que deve ser feito
-- NÃO entrega a solução
+Cada exercício deve adicionar UMA coisa nova.
+Começa quase óbvio e cresce muito devagar.
+O cérebro consolida por repetição progressiva.
+
+**Formato obrigatório de cada exercício dentro das lições:**
+```
+PANORAMA: O que vamos fazer e por qual problema
+RESULTADO ESPERADO: O que o código deve retornar
+PERGUNTA SOCRÁTICA: Uma pergunta que guia o raciocínio
+ALGORITMO PEQUENO: O aluno escreve em português (cresce com o conceito)
+GEMINI AVALIA: O algoritmo antes de qualquer código
+CÓDIGO: O aluno implementa
+```
+
+Exemplo de progressão para filter():
+- Ex 1: filtrar números maiores que 5 (array simples)
+- Ex 2: filtrar strings com mais de 3 letras
+- Ex 3: filtrar objetos por uma propriedade
+- Ex 4: filtrar objetos por duas condições
+- Ex 5: filtrar e contar quantos passaram
+
+---
+
+## Exercícios Finais (js/exercises/)
+
+Os exercícios finais em js/exercises/ são diferentes das lições.
+Eles aparecem DEPOIS que o conceito está consolidado.
+
+**Formato obrigatório:**
+```
+PROBLEMA REAL: Descrição clara do desafio
+RESULTADO ESPERADO: O que deve retornar exatamente
+FERRAMENTAS: Quais métodos usar (às vezes quais NÃO usar)
+ALGORITMO COMPLETO: O aluno escreve do zero em português
+GEMINI AVALIA: O algoritmo antes de qualquer código
+CÓDIGO: O aluno implementa do zero
+REVISÃO: Gemini comenta dentro do arquivo
+```
+
+---
+
+## Regra de ouro
+
+O exercício deve ser resolvível com o que foi ensinado nas lições.
+Pesquisar documentação faz parte do dia a dia de qualquer dev — isso é encorajado.
+
+Quando o aluno precisar consultar algo, o mentor DEVE apontar:
+- MDN Web Docs: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+  → pesquise pelo nome do método (ex: "Array.prototype.filter")
+- javascript.info: https://javascript.info
+  → use o índice lateral para encontrar o tópico
+- DevDocs: https://devdocs.io
+  → agregador de documentações, ótimo para busca rápida
+
+Como pesquisar de forma eficiente:
+→ "javascript [método] mdn" no Google leva direto à página certa
+→ Ex: "javascript filter mdn", "javascript map mdn"
+
+O mentor deve ensinar o aluno a pesquisar, não apenas resolver por ele.
+Saber onde buscar é tão importante quanto saber codar.
 
 ---
 
